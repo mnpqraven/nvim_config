@@ -1,0 +1,12 @@
+{
+  "snip2": {
+    "prefix": "rust",
+    "body": [
+      "rustrustrust"
+    ]
+  },
+  "bruh": {
+    "postfix": "bruh",
+    "body": [ "bruh" ]
+  }
+}
