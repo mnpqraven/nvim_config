@@ -50,6 +50,15 @@ lsp.on_attach(function(_, bufnr)
         { "<leader><leader>", vim.diagnostic.open_float,   desc = "Open diagnostic window", }
     })
 end)
+lsp.configure('nil_ls', {
+    settings = {
+         ['nil'] = {
+         formatting = {
+            command = { "nixfmt" },
+         },
+      },
+    }
+})
 
 lsp.configure('taplo', {
     -- TODO:
