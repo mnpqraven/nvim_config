@@ -1,0 +1,15 @@
+{
+  "name": "othi's snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "all",
+        "path": "./all.json"
+      },
+      {
+        "language": "rust",
+        "path": "./rust.json"
+      }
+    ]
+  }
+}

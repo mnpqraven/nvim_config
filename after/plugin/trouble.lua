@@ -1,0 +1,10 @@
+-- require('trouble').setup({
+--     height = 7
+-- })
+-- wk.register({
+--     s = {
+--         name = 'Show',
+--         t = { "<cmd>TroubleToggle<CR>", "Diagnostic" },
+--         s = { '<cmd>SymbolsOutline<CR>', "Symbols outline" }
+--     }
+-- }, { prefix = "<leader>" })
