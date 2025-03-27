@@ -220,7 +220,7 @@ require('lazy').setup({
         'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async'
     },
     'lervag/vimtex',
-    'jose-elias-alvarez/null-ls.nvim',
+    'nvimtools/none-ls.nvim',
     {
         'phaazon/hop.nvim',
         branch = 'v2',
