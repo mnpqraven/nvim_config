@@ -21,6 +21,7 @@ vim.g.maplocalleader = "\\"
 
 -- TODO: tabout key
 require('lazy').setup({
+    'elkowar/yuck.vim',
     -- NOTE: SYNTAX ----------------------------------------------------------
     {
         'nvim-telescope/telescope.nvim',
