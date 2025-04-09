@@ -6,6 +6,9 @@ local rt = require("rust-tools")
 local wk = require('which-key')
 local crates = require('crates')
 
+local blsp = require('lspconfig')
+blsp.nixd.setup({})
+
 lsp.preset('lsp-compe')
 lsp.skip_server_setup({ 'rust_analyzer' })
 
