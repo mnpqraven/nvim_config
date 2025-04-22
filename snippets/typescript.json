@@ -1,0 +1,18 @@
+{
+	"setState": {
+		"prefix": "setState",
+		"body": "const [$1, set${1/(.*)/${1:/upcase}/}] = useState(${2:initialValue})"
+	},
+	"useEffect": {
+		"prefix": "useEffect",
+		"body": ["useEffect(() => {", "${1}", "), [${2}]}"]
+	},
+	"useCallback": {
+		"prefix": "useCallback",
+		"body": [
+			"const ${1} = useCallback((${2:arg}: ${3:T}) => {",
+			"${3}",
+			"}, [${4}])"
+		]
+	}
+}
